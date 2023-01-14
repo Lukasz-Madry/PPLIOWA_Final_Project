@@ -1,0 +1,17 @@
+
+body {
+  background-color: rgb(71, 71, 71);
+  color: aliceblue;
+  text-align: center;
+}
+
+header{
+  background-color: #154c8d;
+}
+
+p{
+  background-color: #154c8d;
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+}
