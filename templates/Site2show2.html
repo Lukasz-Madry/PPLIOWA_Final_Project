@@ -18,7 +18,7 @@ crossorigin="anonymous"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
-  <title>Item 1</title>
+  <title>Gallery</title>
 </head>
 
 <body>
@@ -71,7 +71,7 @@ crossorigin="anonymous"></script>
         </div>
 
         {% for pic in pics %}
-          <img src="{{url_for('static', filename=pic)}}" alt="{{pics}}" width="40%" height="20%">
+          <img src="{{url_for('static', filename=pic)}}" alt="{{pics}}" width="20%">
         {% endfor %}
         
       </div>

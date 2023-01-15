@@ -7,18 +7,14 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-<!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}"> -->
-<!-- Include the required scripts for proper operation of the library  -->
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
 crossorigin="anonymous"></script>
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
-  <title>Item 1</title>
+  <title>Game page</title>
 </head>
 
 <body>
@@ -67,9 +63,10 @@ crossorigin="anonymous"></script>
         </nav>
         <div>
         User: {{username}}
+        </div>
         <div class="col">
-        Content
-
+          <h1>Game overview and rules</h1>
+        <p>The game is very simple - a player enters their name into the menu, starts the game and tries to beat it. The controls are perfomed using arrows. When the game is finished, the score is automatically sent to the database and displayed on the scoreboards for all other players to see.</p>
       </div>  
       </div>
     </div>

@@ -149,6 +149,7 @@ def game():
         con = sqlite3.connect(DATABASE)
         
         username = session["user"]
+        print("Hello World")
         return render_template('Site3.html', username = username) 
 
     else:
@@ -179,7 +180,6 @@ def addUser():
         username = request.form['username']
         password = request.form['password']
         isAdmin = 'no' if (request.form.get('isAdmin') is None) else 'yes'        
-        # Add Car to DB
         con = sqlite3.connect(DATABASE)
         cur = con.cursor()
         cur.execute("INSERT INTO users (username,password,isAdmin) VALUES (?,?,?)",(username,password,isAdmin))
